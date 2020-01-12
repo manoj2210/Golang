@@ -29,12 +29,12 @@ func main() {
 	c := session.DB("appdb").C("movies")
 	// Create a movie
 	darkNight := &Movie{
-		Name:      "The Dark Knight",
+		Name:      "The Knight",
 		Year:      "2008",
 		Directors: []string{"Christopher Nolan"},
 		Writers:   []string{"Jonathan Nolan", "Christopher Nolan"},
 		BoxOffice: BoxOffice{
-			Budget: 185000000,
+			Budget: 195000000,
 			Gross:  533316061,
 		},
 	}
